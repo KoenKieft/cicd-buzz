@@ -9,10 +9,10 @@ verbs = ('accelerates', 'improves', 'enhances', 'revamps', 'boosts')
 
 
 def sample(L, n=1):
-        result = random.sample(L, n)
-        if n == 1:
-            return result[0]
-        return result
+    result = random.sample(L, n)
+    if n == 1:
+        return result[0]
+    return result
 
 
 def generate_buzz():
